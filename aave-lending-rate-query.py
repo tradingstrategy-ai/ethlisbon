@@ -7,7 +7,7 @@ import json
 import requests
 import datetime
 
-# https://towardsdatascience.com/connecting-to-a-graphql-api-using-python-246dda927840
+# This was grabbed from aavescan
 example_query = """
 {
   "variables": {
@@ -25,6 +25,7 @@ example_query = """
 }
  """
 
+# For each timestamp we add one query item
 TEMPLATE = """
     t{timestamp}: reserveParamsHistoryItems(
         first: 1
@@ -38,16 +39,15 @@ TEMPLATE = """
 
 url = "https://api.thegraph.com/subgraphs/name/aave/protocol-v2"
 
+# Looks like no earlier data available
 start = datetime.datetime(2021, 1, 1, tzinfo=datetime.timezone.utc)
 # start = datetime.datetime(2020, 7, 13, tzinfo=datetime.timezone.utc)
 end = datetime.datetime(2021, 10, 1, tzinfo=datetime.timezone.utc)
 delta = datetime.timedelta(days=1)
-batch_size = 5
-
+batch_size = 5  # How many days we do in one GraphQL query
 
 csv = open("rates.csv", "wt")
 print("day,rate", file=csv)
-
 
 cursor = start
 while cursor < end:
@@ -63,6 +63,7 @@ while cursor < end:
         q += bit
     q += """}"""
 
+    # Reverse: USDC
     body = {
         "variables": {
             "reserve": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb480xb53c1a33016b2dc2ff3653530bff1848a515c8c5"
