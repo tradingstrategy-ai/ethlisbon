@@ -1,0 +1,3611 @@
+query ($reserve: String!) {
+  t1619414531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619414531, timestamp_lt: 1619423331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1619453411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619453411, timestamp_lt: 1619462211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1619492291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619492291, timestamp_lt: 1619501091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1619531171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619531171, timestamp_lt: 1619539971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1619570051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619570051, timestamp_lt: 1619578851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1619608931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619608931, timestamp_lt: 1619617731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1619647811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619647811, timestamp_lt: 1619656611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1619686691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619686691, timestamp_lt: 1619695491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1619725571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619725571, timestamp_lt: 1619734371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1619764451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619764451, timestamp_lt: 1619773251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1619803331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619803331, timestamp_lt: 1619812131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1619842211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619842211, timestamp_lt: 1619851011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1619881091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619881091, timestamp_lt: 1619889891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1619919971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619919971, timestamp_lt: 1619928771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1619958851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619958851, timestamp_lt: 1619967651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1619997731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1619997731, timestamp_lt: 1620006531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620036611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620036611, timestamp_lt: 1620045411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620075491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620075491, timestamp_lt: 1620084291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620114371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620114371, timestamp_lt: 1620123171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620153251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620153251, timestamp_lt: 1620162051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620192131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620192131, timestamp_lt: 1620200931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620231011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620231011, timestamp_lt: 1620239811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620269891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620269891, timestamp_lt: 1620278691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620308771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620308771, timestamp_lt: 1620317571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620347651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620347651, timestamp_lt: 1620356451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620386531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620386531, timestamp_lt: 1620395331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620425411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620425411, timestamp_lt: 1620434211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620464291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620464291, timestamp_lt: 1620473091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620503171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620503171, timestamp_lt: 1620511971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620542051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620542051, timestamp_lt: 1620550851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620580931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620580931, timestamp_lt: 1620589731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620619811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620619811, timestamp_lt: 1620628611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620658691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620658691, timestamp_lt: 1620667491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620697571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620697571, timestamp_lt: 1620706371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620736451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620736451, timestamp_lt: 1620745251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620775331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620775331, timestamp_lt: 1620784131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620814211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620814211, timestamp_lt: 1620823011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620853091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620853091, timestamp_lt: 1620861891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620891971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620891971, timestamp_lt: 1620900771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620930851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620930851, timestamp_lt: 1620939651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1620969731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1620969731, timestamp_lt: 1620978531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621008611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621008611, timestamp_lt: 1621017411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621047491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621047491, timestamp_lt: 1621056291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621086371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621086371, timestamp_lt: 1621095171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621125251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621125251, timestamp_lt: 1621134051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621164131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621164131, timestamp_lt: 1621172931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621203011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621203011, timestamp_lt: 1621211811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621241891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621241891, timestamp_lt: 1621250691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621280771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621280771, timestamp_lt: 1621289571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621319651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621319651, timestamp_lt: 1621328451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621358531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621358531, timestamp_lt: 1621367331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621397411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621397411, timestamp_lt: 1621406211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621436291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621436291, timestamp_lt: 1621445091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621475171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621475171, timestamp_lt: 1621483971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621514051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621514051, timestamp_lt: 1621522851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621552931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621552931, timestamp_lt: 1621561731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621591811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621591811, timestamp_lt: 1621600611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621630691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621630691, timestamp_lt: 1621639491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621669571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621669571, timestamp_lt: 1621678371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621708451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621708451, timestamp_lt: 1621717251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621747331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621747331, timestamp_lt: 1621756131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621786211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621786211, timestamp_lt: 1621795011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621825091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621825091, timestamp_lt: 1621833891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621863971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621863971, timestamp_lt: 1621872771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621902851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621902851, timestamp_lt: 1621911651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621941731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621941731, timestamp_lt: 1621950531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1621980611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1621980611, timestamp_lt: 1621989411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622019491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622019491, timestamp_lt: 1622028291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622058371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622058371, timestamp_lt: 1622067171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622097251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622097251, timestamp_lt: 1622106051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622136131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622136131, timestamp_lt: 1622144931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622175011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622175011, timestamp_lt: 1622183811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622213891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622213891, timestamp_lt: 1622222691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622252771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622252771, timestamp_lt: 1622261571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622291651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622291651, timestamp_lt: 1622300451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622330531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622330531, timestamp_lt: 1622339331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622369411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622369411, timestamp_lt: 1622378211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622408291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622408291, timestamp_lt: 1622417091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622447171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622447171, timestamp_lt: 1622455971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622486051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622486051, timestamp_lt: 1622494851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622524931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622524931, timestamp_lt: 1622533731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622563811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622563811, timestamp_lt: 1622572611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622602691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622602691, timestamp_lt: 1622611491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622641571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622641571, timestamp_lt: 1622650371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622680451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622680451, timestamp_lt: 1622689251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622719331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622719331, timestamp_lt: 1622728131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622758211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622758211, timestamp_lt: 1622767011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622797091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622797091, timestamp_lt: 1622805891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622835971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622835971, timestamp_lt: 1622844771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622874851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622874851, timestamp_lt: 1622883651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622913731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622913731, timestamp_lt: 1622922531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622952611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622952611, timestamp_lt: 1622961411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1622991491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1622991491, timestamp_lt: 1623000291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623030371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623030371, timestamp_lt: 1623039171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623069251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623069251, timestamp_lt: 1623078051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623108131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623108131, timestamp_lt: 1623116931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623147011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623147011, timestamp_lt: 1623155811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623185891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623185891, timestamp_lt: 1623194691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623224771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623224771, timestamp_lt: 1623233571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623263651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623263651, timestamp_lt: 1623272451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623302531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623302531, timestamp_lt: 1623311331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623341411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623341411, timestamp_lt: 1623350211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623380291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623380291, timestamp_lt: 1623389091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623419171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623419171, timestamp_lt: 1623427971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623458051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623458051, timestamp_lt: 1623466851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623496931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623496931, timestamp_lt: 1623505731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623535811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623535811, timestamp_lt: 1623544611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623574691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623574691, timestamp_lt: 1623583491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623613571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623613571, timestamp_lt: 1623622371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623652451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623652451, timestamp_lt: 1623661251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623691331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623691331, timestamp_lt: 1623700131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623730211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623730211, timestamp_lt: 1623739011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623769091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623769091, timestamp_lt: 1623777891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623807971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623807971, timestamp_lt: 1623816771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623846851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623846851, timestamp_lt: 1623855651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623885731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623885731, timestamp_lt: 1623894531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623924611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623924611, timestamp_lt: 1623933411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1623963491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1623963491, timestamp_lt: 1623972291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624002371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624002371, timestamp_lt: 1624011171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624041251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624041251, timestamp_lt: 1624050051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624080131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624080131, timestamp_lt: 1624088931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624119011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624119011, timestamp_lt: 1624127811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624157891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624157891, timestamp_lt: 1624166691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624196771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624196771, timestamp_lt: 1624205571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624235651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624235651, timestamp_lt: 1624244451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624274531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624274531, timestamp_lt: 1624283331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624313411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624313411, timestamp_lt: 1624322211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624352291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624352291, timestamp_lt: 1624361091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624391171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624391171, timestamp_lt: 1624399971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624430051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624430051, timestamp_lt: 1624438851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624468931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624468931, timestamp_lt: 1624477731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624507811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624507811, timestamp_lt: 1624516611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624546691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624546691, timestamp_lt: 1624555491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624585571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624585571, timestamp_lt: 1624594371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624624451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624624451, timestamp_lt: 1624633251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624663331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624663331, timestamp_lt: 1624672131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624702211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624702211, timestamp_lt: 1624711011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624741091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624741091, timestamp_lt: 1624749891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624779971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624779971, timestamp_lt: 1624788771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624818851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624818851, timestamp_lt: 1624827651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624857731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624857731, timestamp_lt: 1624866531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624896611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624896611, timestamp_lt: 1624905411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624935491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624935491, timestamp_lt: 1624944291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1624974371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1624974371, timestamp_lt: 1624983171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625013251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625013251, timestamp_lt: 1625022051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625052131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625052131, timestamp_lt: 1625060931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625091011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625091011, timestamp_lt: 1625099811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625129891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625129891, timestamp_lt: 1625138691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625168771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625168771, timestamp_lt: 1625177571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625207651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625207651, timestamp_lt: 1625216451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625246531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625246531, timestamp_lt: 1625255331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625285411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625285411, timestamp_lt: 1625294211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625324291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625324291, timestamp_lt: 1625333091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625363171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625363171, timestamp_lt: 1625371971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625402051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625402051, timestamp_lt: 1625410851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625440931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625440931, timestamp_lt: 1625449731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625479811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625479811, timestamp_lt: 1625488611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625518691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625518691, timestamp_lt: 1625527491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625557571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625557571, timestamp_lt: 1625566371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625596451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625596451, timestamp_lt: 1625605251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625635331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625635331, timestamp_lt: 1625644131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625674211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625674211, timestamp_lt: 1625683011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625713091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625713091, timestamp_lt: 1625721891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625751971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625751971, timestamp_lt: 1625760771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625790851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625790851, timestamp_lt: 1625799651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625829731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625829731, timestamp_lt: 1625838531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625868611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625868611, timestamp_lt: 1625877411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625907491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625907491, timestamp_lt: 1625916291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625946371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625946371, timestamp_lt: 1625955171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1625985251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1625985251, timestamp_lt: 1625994051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626024131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626024131, timestamp_lt: 1626032931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626063011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626063011, timestamp_lt: 1626071811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626101891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626101891, timestamp_lt: 1626110691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626140771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626140771, timestamp_lt: 1626149571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626179651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626179651, timestamp_lt: 1626188451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626218531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626218531, timestamp_lt: 1626227331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626257411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626257411, timestamp_lt: 1626266211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626296291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626296291, timestamp_lt: 1626305091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626335171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626335171, timestamp_lt: 1626343971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626374051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626374051, timestamp_lt: 1626382851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626412931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626412931, timestamp_lt: 1626421731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626451811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626451811, timestamp_lt: 1626460611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626490691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626490691, timestamp_lt: 1626499491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626529571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626529571, timestamp_lt: 1626538371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626568451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626568451, timestamp_lt: 1626577251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626607331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626607331, timestamp_lt: 1626616131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626646211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626646211, timestamp_lt: 1626655011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626685091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626685091, timestamp_lt: 1626693891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626723971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626723971, timestamp_lt: 1626732771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626762851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626762851, timestamp_lt: 1626771651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626801731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626801731, timestamp_lt: 1626810531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626840611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626840611, timestamp_lt: 1626849411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626879491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626879491, timestamp_lt: 1626888291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626918371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626918371, timestamp_lt: 1626927171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626957251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626957251, timestamp_lt: 1626966051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1626996131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1626996131, timestamp_lt: 1627004931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627035011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627035011, timestamp_lt: 1627043811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627073891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627073891, timestamp_lt: 1627082691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627112771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627112771, timestamp_lt: 1627121571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627151651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627151651, timestamp_lt: 1627160451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627190531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627190531, timestamp_lt: 1627199331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627229411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627229411, timestamp_lt: 1627238211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627268291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627268291, timestamp_lt: 1627277091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627307171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627307171, timestamp_lt: 1627315971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627346051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627346051, timestamp_lt: 1627354851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627384931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627384931, timestamp_lt: 1627393731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627423811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627423811, timestamp_lt: 1627432611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627462691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627462691, timestamp_lt: 1627471491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627501571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627501571, timestamp_lt: 1627510371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627540451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627540451, timestamp_lt: 1627549251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627579331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627579331, timestamp_lt: 1627588131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627618211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627618211, timestamp_lt: 1627627011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627657091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627657091, timestamp_lt: 1627665891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627695971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627695971, timestamp_lt: 1627704771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627734851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627734851, timestamp_lt: 1627743651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627773731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627773731, timestamp_lt: 1627782531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627812611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627812611, timestamp_lt: 1627821411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627851491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627851491, timestamp_lt: 1627860291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627890371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627890371, timestamp_lt: 1627899171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627929251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627929251, timestamp_lt: 1627938051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1627968131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1627968131, timestamp_lt: 1627976931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628007011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628007011, timestamp_lt: 1628015811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628045891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628045891, timestamp_lt: 1628054691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628084771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628084771, timestamp_lt: 1628093571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628123651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628123651, timestamp_lt: 1628132451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628162531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628162531, timestamp_lt: 1628171331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628201411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628201411, timestamp_lt: 1628210211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628240291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628240291, timestamp_lt: 1628249091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628279171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628279171, timestamp_lt: 1628287971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628318051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628318051, timestamp_lt: 1628326851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628356931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628356931, timestamp_lt: 1628365731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628395811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628395811, timestamp_lt: 1628404611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628434691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628434691, timestamp_lt: 1628443491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628473571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628473571, timestamp_lt: 1628482371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628512451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628512451, timestamp_lt: 1628521251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628551331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628551331, timestamp_lt: 1628560131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628590211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628590211, timestamp_lt: 1628599011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628629091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628629091, timestamp_lt: 1628637891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628667971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628667971, timestamp_lt: 1628676771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628706851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628706851, timestamp_lt: 1628715651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628745731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628745731, timestamp_lt: 1628754531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628784611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628784611, timestamp_lt: 1628793411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628823491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628823491, timestamp_lt: 1628832291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628862371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628862371, timestamp_lt: 1628871171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628901251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628901251, timestamp_lt: 1628910051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628940131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628940131, timestamp_lt: 1628948931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1628979011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1628979011, timestamp_lt: 1628987811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629017891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629017891, timestamp_lt: 1629026691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629056771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629056771, timestamp_lt: 1629065571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629095651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629095651, timestamp_lt: 1629104451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629134531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629134531, timestamp_lt: 1629143331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629173411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629173411, timestamp_lt: 1629182211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629212291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629212291, timestamp_lt: 1629221091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629251171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629251171, timestamp_lt: 1629259971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629290051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629290051, timestamp_lt: 1629298851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629328931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629328931, timestamp_lt: 1629337731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629367811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629367811, timestamp_lt: 1629376611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629406691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629406691, timestamp_lt: 1629415491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629445571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629445571, timestamp_lt: 1629454371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629484451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629484451, timestamp_lt: 1629493251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629523331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629523331, timestamp_lt: 1629532131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629562211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629562211, timestamp_lt: 1629571011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629601091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629601091, timestamp_lt: 1629609891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629639971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629639971, timestamp_lt: 1629648771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629678851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629678851, timestamp_lt: 1629687651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629717731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629717731, timestamp_lt: 1629726531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629756611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629756611, timestamp_lt: 1629765411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629795491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629795491, timestamp_lt: 1629804291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629834371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629834371, timestamp_lt: 1629843171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629873251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629873251, timestamp_lt: 1629882051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629912131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629912131, timestamp_lt: 1629920931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629951011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629951011, timestamp_lt: 1629959811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1629989891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1629989891, timestamp_lt: 1629998691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630028771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630028771, timestamp_lt: 1630037571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630067651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630067651, timestamp_lt: 1630076451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630106531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630106531, timestamp_lt: 1630115331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630145411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630145411, timestamp_lt: 1630154211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630184291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630184291, timestamp_lt: 1630193091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630223171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630223171, timestamp_lt: 1630231971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630262051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630262051, timestamp_lt: 1630270851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630300931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630300931, timestamp_lt: 1630309731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630339811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630339811, timestamp_lt: 1630348611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630378691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630378691, timestamp_lt: 1630387491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630417571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630417571, timestamp_lt: 1630426371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630456451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630456451, timestamp_lt: 1630465251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630495331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630495331, timestamp_lt: 1630504131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630534211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630534211, timestamp_lt: 1630543011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630573091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630573091, timestamp_lt: 1630581891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630611971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630611971, timestamp_lt: 1630620771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630650851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630650851, timestamp_lt: 1630659651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630689731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630689731, timestamp_lt: 1630698531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630728611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630728611, timestamp_lt: 1630737411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630767491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630767491, timestamp_lt: 1630776291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630806371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630806371, timestamp_lt: 1630815171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630845251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630845251, timestamp_lt: 1630854051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630884131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630884131, timestamp_lt: 1630892931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630923011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630923011, timestamp_lt: 1630931811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1630961891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1630961891, timestamp_lt: 1630970691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631000771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631000771, timestamp_lt: 1631009571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631039651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631039651, timestamp_lt: 1631048451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631078531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631078531, timestamp_lt: 1631087331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631117411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631117411, timestamp_lt: 1631126211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631156291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631156291, timestamp_lt: 1631165091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631195171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631195171, timestamp_lt: 1631203971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631234051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631234051, timestamp_lt: 1631242851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631272931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631272931, timestamp_lt: 1631281731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631311811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631311811, timestamp_lt: 1631320611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631350691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631350691, timestamp_lt: 1631359491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631389571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631389571, timestamp_lt: 1631398371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631428451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631428451, timestamp_lt: 1631437251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631467331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631467331, timestamp_lt: 1631476131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631506211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631506211, timestamp_lt: 1631515011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631545091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631545091, timestamp_lt: 1631553891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631583971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631583971, timestamp_lt: 1631592771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631622851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631622851, timestamp_lt: 1631631651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631661731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631661731, timestamp_lt: 1631670531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631700611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631700611, timestamp_lt: 1631709411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631739491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631739491, timestamp_lt: 1631748291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631778371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631778371, timestamp_lt: 1631787171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631817251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631817251, timestamp_lt: 1631826051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631856131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631856131, timestamp_lt: 1631864931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631895011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631895011, timestamp_lt: 1631903811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631933891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631933891, timestamp_lt: 1631942691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1631972771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1631972771, timestamp_lt: 1631981571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632011651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632011651, timestamp_lt: 1632020451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632050531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632050531, timestamp_lt: 1632059331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632089411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632089411, timestamp_lt: 1632098211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632128291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632128291, timestamp_lt: 1632137091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632167171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632167171, timestamp_lt: 1632175971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632206051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632206051, timestamp_lt: 1632214851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632244931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632244931, timestamp_lt: 1632253731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632283811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632283811, timestamp_lt: 1632292611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632322691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632322691, timestamp_lt: 1632331491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632361571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632361571, timestamp_lt: 1632370371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632400451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632400451, timestamp_lt: 1632409251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632439331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632439331, timestamp_lt: 1632448131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632478211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632478211, timestamp_lt: 1632487011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632517091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632517091, timestamp_lt: 1632525891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632555971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632555971, timestamp_lt: 1632564771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632594851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632594851, timestamp_lt: 1632603651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632633731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632633731, timestamp_lt: 1632642531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632672611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632672611, timestamp_lt: 1632681411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632711491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632711491, timestamp_lt: 1632720291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632750371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632750371, timestamp_lt: 1632759171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632789251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632789251, timestamp_lt: 1632798051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632828131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632828131, timestamp_lt: 1632836931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632867011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632867011, timestamp_lt: 1632875811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632905891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632905891, timestamp_lt: 1632914691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632944771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632944771, timestamp_lt: 1632953571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1632983651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1632983651, timestamp_lt: 1632992451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633022531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633022531, timestamp_lt: 1633031331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633061411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633061411, timestamp_lt: 1633070211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633100291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633100291, timestamp_lt: 1633109091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633139171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633139171, timestamp_lt: 1633147971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633178051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633178051, timestamp_lt: 1633186851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633216931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633216931, timestamp_lt: 1633225731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633255811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633255811, timestamp_lt: 1633264611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633294691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633294691, timestamp_lt: 1633303491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633333571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633333571, timestamp_lt: 1633342371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633372451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633372451, timestamp_lt: 1633381251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633411331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633411331, timestamp_lt: 1633420131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633450211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633450211, timestamp_lt: 1633459011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633489091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633489091, timestamp_lt: 1633497891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633527971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633527971, timestamp_lt: 1633536771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633566851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633566851, timestamp_lt: 1633575651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633605731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633605731, timestamp_lt: 1633614531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633644611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633644611, timestamp_lt: 1633653411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633683491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633683491, timestamp_lt: 1633692291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633722371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633722371, timestamp_lt: 1633731171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633761251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633761251, timestamp_lt: 1633770051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633800131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633800131, timestamp_lt: 1633808931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633839011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633839011, timestamp_lt: 1633847811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633877891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633877891, timestamp_lt: 1633886691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633916771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633916771, timestamp_lt: 1633925571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633955651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633955651, timestamp_lt: 1633964451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1633994531: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1633994531, timestamp_lt: 1634003331}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634033411: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634033411, timestamp_lt: 1634042211}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634072291: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634072291, timestamp_lt: 1634081091}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634111171: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634111171, timestamp_lt: 1634119971}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634150051: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634150051, timestamp_lt: 1634158851}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634188931: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634188931, timestamp_lt: 1634197731}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634227811: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634227811, timestamp_lt: 1634236611}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634266691: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634266691, timestamp_lt: 1634275491}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634305571: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634305571, timestamp_lt: 1634314371}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634344451: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634344451, timestamp_lt: 1634353251}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634383331: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634383331, timestamp_lt: 1634392131}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634422211: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634422211, timestamp_lt: 1634431011}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634461091: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634461091, timestamp_lt: 1634469891}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634499971: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634499971, timestamp_lt: 1634508771}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634538851: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634538851, timestamp_lt: 1634547651}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634577731: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634577731, timestamp_lt: 1634586531}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634616611: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634616611, timestamp_lt: 1634625411}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634655491: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634655491, timestamp_lt: 1634664291}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634694371: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634694371, timestamp_lt: 1634703171}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634733251: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634733251, timestamp_lt: 1634742051}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634772131: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634772131, timestamp_lt: 1634780931}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634811011: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634811011, timestamp_lt: 1634819811}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634849891: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634849891, timestamp_lt: 1634858691}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634888771: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634888771, timestamp_lt: 1634897571}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634927651: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634927651, timestamp_lt: 1634936451}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+  t1634927351: reserveParamsHistoryItems(
+    first: 1
+    where: {reserve: $reserve, timestamp_gt: 1634927351, timestamp_lt: 1634936151}
+  ) {
+    liquidityRate
+    priceInUsd
+    timestamp
+    __typename
+  }
+}
