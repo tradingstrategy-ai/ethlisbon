@@ -45,8 +45,9 @@ delta = datetime.timedelta(days=1)
 batch_size = 5
 
 
-with open("query4.txt") as inp:
-    payload = json.load(inp)
+csv = open("rates.csv", "wt")
+print("day,rate", file=csv)
+
 
 cursor = start
 while cursor < end:
@@ -70,7 +71,6 @@ while cursor < end:
     }
 
     resp = requests.post(url, json=body)
-    print(resp.status_code)
     assert resp.status_code == 200, f"Got status {resp.status_code}"
     out = resp.json()
     if "errors" in out:
@@ -88,8 +88,7 @@ while cursor < end:
 
         lq = int(structure[0]["liquidityRate"])
         rate = lq / 10**27
-        print(day, rate * 100)
-
+        print(f"{day.isoformat()},{rate}", file=csv)
 
 
 
